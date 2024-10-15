@@ -1,0 +1,45 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+}
+nav{
+    width: 100%;
+}
+.n{
+    width: 100%;
+background-color: black;
+color: cyan;
+display: flex;
+justify-content: space-around;
+padding: 15px;
+list-style-type: none;
+padding: 20px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: black;
+    color: cyan;
+
+}
+
+
+.d-li{
+    position: relative
+}
+.d-ul{
+    position: absolute;
+    background-color: grey;
+    color: cyan;
+    bottom: -177px;
+    right: -100px;
+    padding: 25px;
+    list-style-type: none;
+    display: none;
+}
+.d-li:hover .d-ul{
+    display: block;
+}
